@@ -1,28 +1,10 @@
-== README
+hit /things
+create thing with a name 'Bob'
+see url is:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+http://localhost:3001/things/3%2FBob
 
-Things you may want to cover:
+instead of:
 
-* Ruby version
+http://localhost:3001/things/3/Bob
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
